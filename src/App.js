@@ -24,7 +24,6 @@ function App() {
 
   // useEffect -> run a function whenever a specified state changes
   useEffect(() => {
-    console.log(status);
     switch (status) {
       case 'completed':
         setFilteredTodos(todos.filter((todo) => todo.completed === true));

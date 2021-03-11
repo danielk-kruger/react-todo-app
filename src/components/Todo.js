@@ -17,7 +17,7 @@ const Todo = ({ text, todos, todo, setTodos }) => {
         }
 
         return item;
-      }),
+      })
     );
   };
 
